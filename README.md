@@ -115,8 +115,11 @@ transly translate long_test.json -l fa
 ```
 This will translate the contents of `long_test.json` to Farsi, demonstrating how the tool handles larger files efficiently.
 
-## Contributing
-Contributions are welcome! If you find any issues or have suggestions for new features, please feel free to open an issue or create a pull request.
+
+
+## Website and Social Media
+- Website: [sirvav.com](https://sirvav.com)
+- Instagram: [sirvav_com](https://instagram.com/sirvav_com)
 
 ## License
 This project is licensed under the **GNU General Public License v3.0** (GPL-3.0). See the [LICENSE](LICENSE) file for more details.
