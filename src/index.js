@@ -31,7 +31,7 @@ if (fs.existsSync(CACHE_FILE)) {
 
 // Function to display Transly logo and version
 function displayLogo() {
-  figlet('Transly v0.6.0', function (err, data) {
+  figlet('Transly v1.0.2', function (err, data) {
     if (err) {
       console.log('Something went wrong...');
       console.dir(err);
@@ -83,14 +83,14 @@ function saveCache() {
 program
   .name('transly')
   .description('CLI for translating files')
-  .version('0.6.0');
+  .version('1.0.2');
 
   program
   .command('start')
   .description('Start Transly and display information')
   .action(() => {
     // Display the logo first
-    figlet('Transly v0.6.0', function (err, data) {
+    figlet('Transly v1.0.2', function (err, data) {
       if (err) {
         console.log('Something went wrong...');
         console.dir(err);
