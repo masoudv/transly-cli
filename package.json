@@ -1,14 +1,27 @@
 {
   "name": "transly-cli",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.0.2",
+  "description": "A CLI tool for translating files using Google Translate.",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": [
+    "cli",
+    "translate",
+    "google-translate",
+    "json",
+    "csv",
+    "txt"
+  ],
+  "files": [
+    "src",
+    "README.md",
+    "package.json"
+  ],
+  "author": "Masoud Vatankhah",
+  "company": "sirvav agency",
+  "license": "GPL-3.0",
   "dependencies": {
     "axios": "^1.7.7",
     "cheerio": "^1.0.0",
@@ -21,5 +34,6 @@
   },
   "bin": {
     "transly": "src/index.js"
-  }
+  },
+  "preferGlobal": true
 }
