@@ -29,6 +29,13 @@ npm install
 ## Usage
 To use Transly CLI, you can use the following commands:
 
+### Starting Transly
+To start using Transly, first run the start command to see the logo and available options:
+```bash
+transly start
+```
+This will display the Transly logo along with helpful information about how to use the tool.
+
 ### Translating a JSON File
 ```bash
 transly translate <file_path> -l <target_language>
@@ -114,8 +121,6 @@ To translate an extended JSON file:
 transly translate long_test.json -l fa
 ```
 This will translate the contents of `long_test.json` to Farsi, demonstrating how the tool handles larger files efficiently.
-
-
 
 ## Website and Social Media
 - Website: [sirvav.com](https://sirvav.com)
