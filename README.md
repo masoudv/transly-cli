@@ -17,7 +17,7 @@ To install Transly CLI, first clone the repository from GitHub and then install 
 
 ```bash
 # Clone the repository
-git clone https://github.com/username/transly-cli.git
+git clone https://github.com/masoudv/transly-cli.git
 
 # Navigate to the project directory
 cd transly-cli
